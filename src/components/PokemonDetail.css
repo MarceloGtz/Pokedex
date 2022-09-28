@@ -1,0 +1,119 @@
+.PokemonDetail {
+  width: 80%;
+  margin: 2rem auto;
+  background-color: white;
+  border: 1px solid gainsboro;
+  padding: 1rem;
+}
+
+.PokemonDetail__img {
+  width: 320px;
+  height: 320px;
+  display: block;
+  margin: 0 auto;
+}
+
+.PokemonDetail__id {
+  text-align: center;
+  background-color: whitesmoke;
+  border: 1px solid gainsboro;
+  display: block;
+  padding: 5px;
+  font-size: 1.3rem;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.PokemonDetail__name {
+  font-size: 2rem;
+  text-align: center;
+  text-transform: capitalize;
+  position: relative;
+}
+
+/* .PokemonDetail__name::after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background-color: gainsboro;
+  top: 50%;
+  left: 18%;
+}
+
+.PokemonDetail__name::before {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 1px;
+  background-color: gainsboro;
+  top: 50%;
+  left: 60%;
+} */
+
+.PokemonDetail__ctn {
+  text-transform: capitalize;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  text-align: center;
+}
+
+.PokemonDetail__subtitle {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+.PokemonDetail__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 1.25rem;
+}
+
+.PokemonDetail__types {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+
+.PokemonDetail__abilities {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+
+.PokemonDetail__ability {
+  border: 1px solid rgb(180, 180, 180);
+}
+
+.PokemonDetail__movements {
+  width: 80%;
+  margin: 1rem auto;
+  background-color: white;
+  border: 1px solid gainsboro;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+.PokemonDetail__moves {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.PokemonDetail__move {
+  text-transform: capitalize;
+  padding: 10px 20px;
+  background-color: gainsboro;
+  color: black;
+  display: inline-block;
+  border-radius: 1.5rem;
+}
