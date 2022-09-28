@@ -18,14 +18,15 @@ Check out my app running on netlify here: <a href="https://pokedex-lemon-theta.v
 
 Clone the project
 
-````bash
-  git clone https://github.com/MarceloGtz/Pokedex.git
+```bash
+  https://github.com/MarceloGtz/Pokedex.git
+```
 
 Go to the project directory
 
 ```bash
   cd Pokedex
-````
+```
 
 Install dependencies
 
