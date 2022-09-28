@@ -1,6 +1,5 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import React from 'react';
-import './Reset.css';
 import './App.css';
 import Login from './components/Login';
 import Pokedex from './components/Pokedex';
