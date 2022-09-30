@@ -2,12 +2,17 @@
   padding: 10px;
   border-radius: 12px;
   cursor: pointer;
+  transition: box-shadow 320ms ease-out;
 }
 
 .PokemonCard-inside {
   background-color: #ffffff;
   border-radius: 12px;
   text-align: center;
+}
+
+.PokemonCard-outside:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .PokemonCard__img-bg {
