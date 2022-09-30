@@ -30,7 +30,7 @@ const Login = () => {
           className='login__input'
           type='text'
           placeholder='Your name...'
-          // required
+          required
           autoFocus
           value={inputValue}
           onChange={e => setInputValue(e.target.value)}
